@@ -31,7 +31,8 @@ so that we can only load module one time")
 (defvar artisan-mode-and-module-alist
   '((emacs-lisp-mode . artisan-emacs-lisp)
     (org-mode . artisan-org)
-    (python-mode . artisan-python))
+    (python-mode . artisan-python)
+    (js2-mode . artisan-js))
   "The initialize module file for `major-mode'")
 
 (defun artisan-get-module-state (mode)

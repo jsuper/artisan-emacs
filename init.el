@@ -71,4 +71,4 @@ or `elpa' package manager")
 
 (message "Artisan emacs initialized")
 
-;;; init.el ends here
+;;;init.el
